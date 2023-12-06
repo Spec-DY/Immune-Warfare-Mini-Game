@@ -21,10 +21,10 @@ This Python-based game titled "Immune Warfare: Cells vs. Viruses." The game is a
 
 ## Guide
 To play the game, run the main.py file and click start in the start menu. Once the game begins, use the left and right arrow keys to move the white blood cell. Press space to shoot at incoming viruses. The aim is to destroy enough viruses before time runs out to trigger the boss fight, 30 kills in this case. Win if boss defeated, while loss if runing out of time or player dead.
-Player may customize difficulties by acessing some constant at the begining of the main.py file:
-**MIN_SCORE**: The score required for boss fight, set it **lower for easier game**.
-**TIME_LIMIT**: Certain score should be reached before this time runout, set it **higher for easier game**.
-**BOSS_SHOOT_RATE**: Boss shooting frequency divisor, set it **higher for easier game**.
+Player may customize difficulties by acessing some constant at the begining of the main.py file:<br>
+**MIN_SCORE**: The score required for boss fight, set it **lower for easier game**.<br>
+**TIME_LIMIT**: Certain score should be reached before this time runout, set it **higher for easier game**.<br>
+**BOSS_SHOOT_RATE**: Boss shooting frequency divisor, set it **higher for easier game**.<br>
 **FRESH_RATE**: Adjust game fresh rate, set it **lower for easier game**.
 
 
