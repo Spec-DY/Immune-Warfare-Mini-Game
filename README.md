@@ -29,15 +29,15 @@ Player may customize difficulties by acessing some constant at the begining of t
 
 
 ## Installation Instructions
-# execute exe:
-Open file named "Immune War.exe"
+  ### execute exe:
+  Open file named "Immune War.exe"
 
-# To execute code:
-- Clone the repository from GitHub.
-- Ensure Python is installed on your device.
-- Install Pygame: `pip install pygame`
-- Run the script: `python main.py`
-- Required images should be in the 'immuart' folder.
+  ### To execute code:
+  - Clone the repository from GitHub.
+  - Ensure Python is installed on your device.
+  - Install Pygame: `pip install pygame`
+  - Run the script: `python main.py`
+  - Required images should be in the 'immuart' folder.
 
 ## Code Review
 Go over key aspects of code in this section. Both link to the file, include snippets in this report (make sure to use the [coding blocks](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code)).  Grading wise, we are looking for that you understand your code and what you did. 
