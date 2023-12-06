@@ -1,0 +1,88 @@
+pygame 2.5.2 (SDL 2.28.3, Python 3.12.0)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+Startnamu function called
+Button created
+Button clicked
+startmanu function return
+Player instance created
+Button created
+Player health bar created
+Boss health bar created
+countdown_with_mission called sucessfully
+clean_stack called, cleaning now...      
+clean_stack called, cleaning now...      
+clean_stack called, cleaning now...
+clean_stack called, cleaning now...
+clean_stack called, cleaning now...
+clean_stack called, cleaning now...
+Game start countdown finish
+score_display called, score passed in is0
+score_display done
+timer_display called time remaining passed in is30
+timer_display done
+Virus instance created
+enemy spawn
+Virus instance created
+enemy spawn
+score_display called, score passed in is0
+score_display done
+timer_display called time remaining passed in is30
+timer_display done
+score lower than min_score game over triggered
+score_display called, score passed in is10
+score_display done
+timer_display called time remaining passed in is0
+timer_display done
+No boss fight
+Boss Created
+end_game called
+Now the game should be over
+You should see the lose image
+score_display called, score passed in is10
+score_display done
+timer_display called time remaining passed in is0
+timer_display done
+end_game called
+Now the game should be over
+You should see the lose image
+score_display called, score passed in is10
+score_display done
+timer_display called time remaining passed in is0
+timer_display done
+end_game called
+Now the game should be over
+You should see the lose image
+game quit
+score_display called, score passed in is10
+score_display done
+timer_display called time remaining passed in is0
+timer_display done
+end_game called
+Now the game should be over
+You should see the lose image
+Startnamu function called
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
