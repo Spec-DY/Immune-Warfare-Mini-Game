@@ -8,7 +8,10 @@
 
 
 ## Description 
-This Python-based game titled "Immune Warfare: Cells vs. Viruses." The game is an arcade-style shooter where the player controls a white blood cell, aiming to eliminate viruses and ultimately face a boss virus. I was motivated by my interest in both gaming and biology. I wanted to create an engaging way to visualize the immune response while learning more about game development in Python.
+This Python-based game titled "Immune Warfare: Cells vs. Viruses." The game is an arcade-style shooter where the player controls a white blood cell, aiming to eliminate viruses and ultimately face a boss virus. 
+### Game background story
+As a white blood cell, you are the body's silent protector. Your first battle unfolds in the upper respiratory tract, confronting a formidable virus. This encounter is just a hint of the lurking threats. 
+Remember, these viruses may harbor a grander plot. Your vigilant journey into the body's hidden depths begins.
 
 
 ## Key Features
