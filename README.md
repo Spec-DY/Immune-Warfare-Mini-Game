@@ -8,18 +8,36 @@
 
 
 ## Description 
-General overview of the project, what you did, why you did it, etc. 
+This Python-based game titled "Immune Warfare: Cells vs. Viruses." The game is an arcade-style shooter where the player controls a white blood cell, aiming to eliminate viruses and ultimately face a boss virus. I was motivated by my interest in both gaming and biology. I wanted to create an engaging way to visualize the immune response while learning more about game development in Python.
 
 
 ## Key Features
-Highlight some key features of this project that you want to show off/talk about/focus on. 
+- **Dynamic Enemy Movement:** Viruses move down the screen at varying speeds.
+- **Boss Fight:** A challenging boss fight occurs once a certain score is reached.
+- **Health Bars:** Both the player and boss have visual health bars.
+- **Scoring System:** The game tracks the number of viruses eliminated.
+- **Timed Gameplay:** Players have a set amount of time to reach the boss level.
+- **Customizable Difficulty:** Player can adjust status for different objects like boss health, player health, etc.
 
 ## Guide
-How do we run your project? What should we do to see it in action? - Note this isn't installing, this is actual use of the project.. If it is a website, you can point towards the gui, use screenshots, etc talking about features. 
+To play the game, run the main.py file and click start in the start menu. Once the game begins, use the left and right arrow keys to move the white blood cell. Press space to shoot at incoming viruses. The aim is to destroy enough viruses before time runs out to trigger the boss fight, 30 kills in this case. Win if boss defeated, while loss if runing out of time or player dead.
+Player may customize difficulties by acessing some constant at the begining of the main.py file:
+**MIN_SCORE**: The score required for boss fight, set it **lower for easier game**.
+**TIME_LIMIT**: Certain score should be reached before this time runout, set it **higher for easier game**.
+**BOSS_SHOOT_RATE**: Boss shooting frequency divisor, set it **higher for easier game**.
+**FRESH_RATE**: Adjust game fresh rate, set it **lower for easier game**.
 
 
 ## Installation Instructions
-If we wanted to run this project locally, what would we need to do?  If we need to get API key's include that information, and also command line startup commands to execute the project. If you have a lot of dependencies, you can also include a requirements.txt file, but make sure to include that we need to run `pip install -r requirements.txt` or something similar.
+# execute exe:
+Open file named "Immune War.exe"
+
+# To execute code:
+- Clone the repository from GitHub.
+- Ensure Python is installed on your device.
+- Install Pygame: `pip install pygame`
+- Run the script: `python main.py`
+- Required images should be in the 'immuart' folder.
 
 ## Code Review
 Go over key aspects of code in this section. Both link to the file, include snippets in this report (make sure to use the [coding blocks](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code)).  Grading wise, we are looking for that you understand your code and what you did. 
