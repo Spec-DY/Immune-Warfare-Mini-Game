@@ -20,7 +20,7 @@ This Python-based game titled "Immune Warfare: Cells vs. Viruses." The game is a
 - **Customizable Difficulty:** Player can adjust status for different objects like boss health, player health, etc.
 
 ## Guide
-To play the game, run the main.py file and click start in the start menu. Once the game begins, use the left and right arrow keys to move the white blood cell. Press space to shoot at incoming viruses. The aim is to destroy enough viruses before time runs out to trigger the boss fight, 30 kills in this case. Win if boss defeated, while loss if runing out of time or player dead.
+To play the game, click "Immune War.exe", you can also run the main.py file and click start in the start menu. Once the game begins, use the left and right arrow keys to move the white blood cell. Press space to shoot at incoming viruses. The aim is to destroy enough viruses before time runs out to trigger the boss fight, 30 kills in this case. Win if boss defeated, while loss if runing out of time or player dead.
 Player may customize difficulties by acessing some constant at the begining of the main.py file:
 
 **MIN_SCORE**: The score required for boss fight, set it **lower for easier game**.<br>
@@ -30,15 +30,16 @@ Player may customize difficulties by acessing some constant at the begining of t
 
 
 ## Installation Instructions
-  ### execute exe:
-  Open file named "Immune War.exe"
-
-  ### To execute code:
+  ### Execute exe:
+  Path: "Immune Warfare/dist/Immune Warfare.exe"
+  Double click "Immune Warfare.exe"
+  ##### OR
+  ### Execute code:
   - Clone the repository from GitHub.
   - Ensure Python is installed on your device.
   - Install Pygame: `pip install pygame`
   - Run the script: `python main.py`
-  - Required images should be in the 'immuart' folder.
+  - 'immuart' folder must be same path with main.py.
 
 ## Code Review
 Go over key aspects of code in this section. Both link to the file, include snippets in this report (make sure to use the [coding blocks](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code)).  Grading wise, we are looking for that you understand your code and what you did. 
