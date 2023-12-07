@@ -245,19 +245,25 @@ Please check the test folder
 - **Contents**: Contains the output displayed in the command line when `test_main.py` is executed, capturing the results and behaviors during the test.
 
 ## Missing Features / What's Next
-### The current game development has reached only the first level. The upcoming work will focus on enhancing gameplay rather than adding new levels. Here is the update plan:
-##### 1.Allow player movement on the Y-axis.<br>
-##### 2.Add a health bar for the player before entering the boss fight.<br>
-##### 3.Introduce damage to the player when touched by ordinary viruses.<br>
-##### 4.Add bullet types: in addition to normal bullets, there should be special bullets. Special bullets can perform more powerful attacks and create explosive effects.<br>
-##### 5.Add red blood cells in non-boss battles, which can heal the player upon contact.<br>
-##### 6.Include pills in non-boss battles that give the player special bullets upon contact.<br>
-##### 7.Add two additional characters for players to choose from:<br>
-  ###### a) T-cell<br>
-  - T-cells have less health but can emit stronger laser attacks.<br>
-  ###### b) Macrophage<br>
-  - Has more health but can only attack viruses by contact.<br>
-##### 8.Introduce a second form of the boss, which will execute a full-screen barrage attack when its health is below half.
+### Update Plan:
+1. **Allow Player Movement on the Y-axis.**
+2. **Add Health Bar for Player:**
+   - Before entering the boss fight.
+3. **Damage to Player:**
+   - When touched by ordinary viruses.
+4. **New Bullet Types:**
+   - Special bullets for more powerful attacks and explosive effects, in addition to normal bullets.
+5. **Red Blood Cells in Non-Boss Battles:**
+   - Heals the player upon contact.
+6. **Pills in Non-Boss Battles:**
+   - Gives the player special bullets upon contact.
+7. **Two Additional Characters:**
+   a) **T-cell**
+      - Less health, stronger laser attacks.
+   b) **Macrophage**
+      - More health, attacks viruses by contact.
+8. **Second Form of Boss:**
+   - Full-screen barrage attack when health is below half.
 
 ## Final Reflection
 Write at least a paragraph about your experience in this course. What did you learn? What do you need to do to learn more? Key takeaways? etc.
