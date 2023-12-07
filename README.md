@@ -34,7 +34,7 @@ Player may customize difficulties by acessing some constant at the begining of t
 
 ## Installation Instructions
   ### Execute exe:
-  Path: "Immune Warfare/dist/Immune Warfare.exe"<br>Double click "Immune Warfare.exe"
+  Find Path: "Immune Warfare/dist/Immune Warfare.exe"<br>Double click "Immune Warfare.exe"
   ##### OR
   ### Execute code:
   - Clone the repository from GitHub.
