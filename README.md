@@ -183,8 +183,41 @@ if boss_fight:
 ```
 
 ### Major Challenges
-Key aspects could include pieces that your struggled on and/or pieces that you are proud of and want to show off.
-
+#### Clean input and Boss fight
+Cleaning input while on the black screen and handling the boss fight logic initially presented significant challenges for me. However, I discovered that setting some status tracking variables and managing them later greatly simplified the process.
+#### Rolling background
+I've also struggled on how to rolling the background, the solution is incrementing background y position, the condition background_y >= background_size[1] checks whether background_y has reached or exceeded the height of the background image (background_size[1] is the height of the background). If this condition is true, it means the entire height of the background has scrolled past the viewable area of the game window, then set y position back to 0.
+```python
+background_y += 3  # background rolling speed
+if background_y >= background_size[1]:
+    background_y = 0
+```
+#### Game start manu and black screen countdown
+I struggled with how to display the player's start menu and implement a black screen countdown with the mission display after the start button is clicked. I realized that, apart from the main game loop, I could set up another loop like this:
+```python
+if __name__ == "__main__":
+    while True:
+        startmanu()
+        should_restart = main()
+        if not should_restart:
+            break
+```
+So, this command ensures that the start menu appears first. Then, after the start button is clicked, I've arranged for a black screen countdown and mission display to occur before the main loop begins.
+```python
+countdown_with_mission()
+running = True
+while running:
+# main game loop code
+```
+#### End game logic
+There was a time when an error message appeared after the game was over. This occurred because if the player's score was less than the MIN_SCORE, the boss would not appear, nor would it be added to the Boss class. It was impossible to pass boss.health to the end_game() function under these conditions. This issue was resolved by checking if boss is None (indicating no boss fight). In this case, a boss is added to the Boss class, ensuring that the boss has its initial health. Then, the end_game function checks if the boss's health is 0; if it's not, it's considered a loss.
+```python
+if game_over:
+    if boss is None:  # if boss is not instanced (no boss fight)
+        boss = Boss(all_sprites, enemy_bullets)
+    end_game(score, game_over, boss.health)
+    restart_button.drawbutton()
+```
 
 ## Example Runs
 Explain how you documented running the project, and what we need to look for in your repository (text output from the project, small videos, links to videos on youtube of you running it, etc)
