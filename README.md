@@ -268,7 +268,6 @@ Please check the test folder
 8. **Second Form of Boss:**
    - Full-screen barrage attack when health is below half.
 
-## Final Reflection
 ## Reflection on the Course
 
 I really enjoy this class. Each time, through homework exercises, I gain a deeper understanding of the course content. I've gone from having no exposure to Python to now feeling very confident in it. My biggest takeaway has been the development of abstract thinking. Each template has helped me learn how to design programs. I think I now have some concept of abstraction, though mastering this kind of thinking might be a lifelong process. For smaller programs, I can quickly figure out which features to break down, and what data types to use, but I still find it challenging for slightly larger programs, like this final project, even though it's just a small demo.
