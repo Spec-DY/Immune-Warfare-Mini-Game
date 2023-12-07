@@ -46,7 +46,8 @@ Player may customize difficulties by acessing some constant at the begining of t
 ## Code Review
 ### Game Initialization and Settings
 The game initializes Pygame and sets up constants that define the game's title, window size, colors, and key gameplay parameters.
-'''pygame.init()
+```python
+pygame.init()
 
 # constants
 TITLE = "Immune Warfare: Cells vs. Viruses"
@@ -57,7 +58,7 @@ RED = (255, 0, 0)
 
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 pygame.display.set_caption(TITLE)
-'''
+```
 
 ### Major Challenges
 Key aspects could include pieces that your struggled on and/or pieces that you are proud of and want to show off.
