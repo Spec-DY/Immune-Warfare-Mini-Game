@@ -10,13 +10,16 @@ As a white blood cell, you are the body's silent protector. Your first battle un
 Remember, these viruses may harbor a grander plot. Your vigilant journey into the body's hidden depths begins.
 
 
-## Key Features
+## Gameplay
 - **Dynamic Enemy Movement:** Viruses move down the screen at varying speeds.
 - **Boss Fight:** A challenging boss fight occurs once a certain score is reached.
 - **Health Bars:** Both the player and boss have visual health bars.
 - **Scoring System:** The game tracks the number of viruses eliminated.
 - **Timed Gameplay:** Players have a set amount of time to reach the boss level.
 - **Customizable Difficulty:** Player can adjust status for different objects like boss health, player health, etc.
+- ### Boss Fight
+- <img src="https://github.com/Spec-DY/Final-Project/assets/125960879/fc17ba17-edce-4f36-a93b-5e6667f50a2a" width="800" height="600">
+
 
 ## Guide
 To play the game, click "Immune Warfare.exe", you can also run the main.py file and click start in the start menu. Once the game begins, use the left and right arrow keys to move the white blood cell. Press space to shoot at incoming viruses. The aim is to destroy enough viruses before time runs out to trigger the boss fight, 30 kills in this case. Win if boss defeated, while loss if runing out of time or player dead.
