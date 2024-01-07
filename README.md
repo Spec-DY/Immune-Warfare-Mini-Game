@@ -1,5 +1,6 @@
 # Immune Warfare: Cells vs. Viruses
 A vertical shooting mini-game.
+![screenshot1](https://github.com/Spec-DY/Final-Project/assets/125960879/e90e9d56-3d7e-4626-bea4-b70b813bdc4f)
 
 
 
