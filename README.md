@@ -11,13 +11,10 @@ Remember, these viruses may harbor a grander plot. Your vigilant journey into th
 
 
 ## Gameplay
-- **Dynamic Enemy Movement:** Viruses move down the screen at varying speeds.
-- **Boss Fight:** A challenging boss fight occurs once a certain score is reached.
-- **Health Bars:** Both the player and boss have visual health bars.
-- **Scoring System:** The game tracks the number of viruses eliminated.
-- **Timed Gameplay:** Players have a set amount of time to reach the boss level.
-- **Customizable Difficulty:** Player can adjust status for different objects like boss health, player health, etc.
-- ### Boss Fight
+Shooting -> Space
+Movement -> Arrow keys
+Eliminate 30 viruses, and a powerful Boss Virus will appear.
+- ### Boss Fight Screenshot
 - <img src="https://github.com/Spec-DY/Final-Project/assets/125960879/fc17ba17-edce-4f36-a93b-5e6667f50a2a" width="800" height="600">
 
 
@@ -266,10 +263,3 @@ Please check the test folder
       - More health, attacks viruses by contact.
 8. **Second Form of Boss:**
    - Full-screen barrage attack when health is below half.
-
-## Reflection on the Course
-
-I really enjoy this class. Each time, through homework exercises, I gain a deeper understanding of the course content. I've gone from having no exposure to Python to now feeling very confident in it. My biggest takeaway has been the development of abstract thinking. Each template has helped me learn how to design programs. I think I now have some concept of abstraction, though mastering this kind of thinking might be a lifelong process. For smaller programs, I can quickly figure out which features to break down, and what data types to use, but I still find it challenging for slightly larger programs, like this final project, even though it's just a small demo.
-I really liked that this final project allowed us to choose what we wanted to do. I've always been interested in making games. During this time, I was so focused on the creation process that I often found myself working through the night. I thoroughly enjoyed this process.
-I'm also eager to learn more about lower-level concepts, such as assembly language, data structures, and memory management. Understanding how computers process these codes is a great joy.
-
