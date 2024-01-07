@@ -1,9 +1,5 @@
-# Final Project Report
-
-* Student Name: Dingyang Jin
-* Github Username: Spec-DY
-* Semester: Fall 2023
-* Course: CS5001
+# Immune Warfare: Cells vs. Viruses
+A vertical shooting mini-game.
 
 
 
