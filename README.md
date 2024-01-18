@@ -15,7 +15,7 @@ Shooting -> Space<br>
 Movement -> Arrow keys<br>
 Eliminate 30 viruses, and a powerful Boss Virus will appear.<br>
 - ### Boss Fight Screenshot
-- <img src="https://github.com/Spec-DY/Final-Project/assets/125960879/fc17ba17-edce-4f36-a93b-5e6667f50a2a" width="800" height="600">
+<img src="https://github.com/Spec-DY/Final-Project/assets/125960879/fc17ba17-edce-4f36-a93b-5e6667f50a2a" width="800" height="600">
 
 
 ## Guide
